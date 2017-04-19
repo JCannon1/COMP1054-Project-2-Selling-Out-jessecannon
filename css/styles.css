@@ -1,13 +1,16 @@
 html {
     background-color: white;
+    /* made the page font Lato */
     font-family: Lato, sans-serif;
 }
 header {
     background-color: darkblue;
 }
+/* made the h2 text white */
 h1 {
     color: white;
 }
+/* gave the add to cart form a lightgrey border and positioned it to the top right */
 main form {
     border: lightgrey solid 1px;
     padding: 1px;
@@ -40,6 +43,10 @@ main form {
     height: 400px;
     text-align: center;
 }
+/* made the related product figures display horizontally */
+figure {
+    display: inline-block;
+}
 #info {
     border: none;
     width: 600px;
@@ -47,6 +54,7 @@ main form {
     bottom: 410px;
     left: 340px;
 }
+/* made the info h2 text uppercase */
 #info h2 {
     text-transform: uppercase;
 }
@@ -73,8 +81,4 @@ footer {
     color: white;
     position: relative;
     top: 250px;
-}
-
-figure {
-    display: inline-block;
 }
